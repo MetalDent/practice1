@@ -1,0 +1,243 @@
+<!DOCTYPE html> 
+<html>
+<style>
+input[type=text], select{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: 1px solid;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 100%;
+	padding: 12px 18px;
+	margin: 4px 0;
+	border-radius: 4px;>
+	background-color: white;
+	color: black;
+	border: solid;
+}
+
+input[type=submit]:hover;
+
+div{
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.star{
+	color: red;
+}
+
+</style>
+
+<body>
+
+<h2>Admission Registration Form:</h2>
+<br>
+<br>
+
+<div>
+	<form action="thank you page.html" method="post">
+	   <h3>Student's Name:<span class="star">*</span>(in Block letters)</h3>
+	   <br>
+	    First Name:<span class="star">*</span>
+		<input type="text" name="firstname" >
+		<br>
+		Middle Name:
+		<input type="text" id="mname" name="middlename">
+		<br>
+		Last Name:<span class="star">*</span>
+		<input type="text" id="lname" name="lastname">
+
+		<h3>Gender:<span class="star">*</span></h3>
+		<input type="radio" name="gender" value="male" checked> Male<br>
+  		<input type="radio" name="gender" value="female"> Female<br>
+
+  		<h3>Session:<span class="star">*</span></h3>
+  		<select name="session">
+    		<option value="s1">Please Select</option>
+    		<option value="s2">2018-2019</option>
+    	</select>
+
+    	<h3>Standard in which applicant seeks admission<span class="star">*</span>:</h3>
+    	<select name="standard">
+    		<option value="1">Please select</option>
+    		<option value="2">Nursery</option>
+    		<option value="3">Junior KG</option>
+    		<option value="4">Senior KG</option>
+    		<option value="5">I</option>
+    		<option value="6">II</option>
+    		<option value="7">III</option>
+    		<option value="8">IV</option>
+    		<option value="9">V</option>
+    		<option value="10">VI</option>
+    		<option value="11">VII</option>
+    		<option value="12">VIII</option>
+    		<option value="13">IX</option>
+    		<option value="14">X</option>
+		</select>
+
+		<h3>Birth Date:<span class="star">*</span></h3>
+		<input type="date" name="bday">
+
+		<h3>Address:<span class="star">*</span></h3>
+		<input type="text" name="add1">
+		<br>
+		<input type="text" name="add2">
+
+		<h3>Pin Code:<span class="star">*</span></h3>
+		<input type="Address" name="pin">
+
+		<h3>Phone No.:</h3>
+		<input type="tel" name="R">
+
+		<h3>Mobile:<span class="star">*</span></h3>
+		<input type="tel" name="mobile">
+
+		<h3>Primary E-mail ID:<span class="star">*</span></h3>
+		<input type="email" name="email">
+
+		<h3>Birth Certificate:<span class="star">*</span></h3>
+		<input type="file" name="birthcerti">
+
+		<h3>Proof of Residence:<span class="star">*</span></h3>
+		<input type="file" name="por">
+
+		<br><br><br>
+		<hr>
+		<br><br>
+
+		<h2>Family Information</h2>
+
+		<h3>Parental Status:<span class="star">*</span></h3>
+		<input type="radio" name="ps" value="sf">Single Father
+		<input type="radio" name="ps" value="sm">Single Mother
+		<input type="radio" name="ps" value="both" checked>Both
+
+		<h3>Relationship:</h3>
+
+		<h3>FATHER</h3>
+		
+		<select name="sal">
+			<option value="1">Mr</option>
+			<option value="2">Dr</option>
+		</select>
+
+		First Name:<span class="star">*</span>
+		<input type="text" name="firstname" >
+		Middle Name:
+		<input type="text" id="mname" name="middlename">
+		Last Name:<span class="star">*</span>
+		<input type="text" id="lname" name="lastname">
+
+		<br><br>
+
+		E-mail ID:<span class="star">*</span>
+		<input type="email" name="email">
+
+		<br><br>
+
+		Mobile No.:<span class="star">*</span>
+		<input type="tel" name="mob">
+
+		<br><br>
+
+		Highest Educational Qualification:<span class="star">*</span>
+		<select name="edu">
+			<option value="1">---Select---</option>
+			<option value="2">SSC</option>
+			<option value="3">HSC</option>
+			<option value="4">Diploma</option>
+			<option value="5">Graduate</option>
+			<option value="6">Post Graduate</option>
+		</select>
+
+		<br><br>
+
+		Annual Income:
+		<input type="text">
+
+		<br><br>
+
+		Occupation:<span class="star">*</span>
+		<input type="radio" name="Service">Service
+		<input type="radio" name="Business">Business
+		<input type="radio" name="Other">Other
+
+		<br><br>
+
+		Proof of Qualification:<span class="star">*</span>
+		<input type="file" name="proofquali">
+
+		<br><br>
+
+		<h3>MOTHER</h3>
+		
+		<select name="sal">
+			<option value="1">Mrs</option>
+			<option value="2">Ms</option>
+			<option value="3">Dr</option>
+		</select>
+
+		First Name:<span class="star">*</span>
+		<input type="text" name="firstname" >
+		Middle Name:
+		<input type="text" id="mname" name="middlename">
+		Last Name:<span class="star">*</span>
+		<input type="text" id="lname" name="lastname">
+
+		<br><br>
+
+		E-mail ID:<span class="star">*</span>
+		<input type="email" name="email">
+
+		<br><br>
+
+		Mobile No.:<span class="star">*</span>
+		<input type="tel" name="mob">
+
+		<br><br>
+
+		Highest Educational Qualification:<span class="star">*</span>
+		<select name="edu">
+			<option value="1">---Select---</option>
+			<option value="2">SSC</option>
+			<option value="3">HSC</option>
+			<option value="4">Diploma</option>
+			<option value="5">Graduate</option>
+			<option value="6">Post Graduate</option>
+		</select>
+
+		<br><br>
+
+		Annual Income:
+		<input type="text">
+
+		<br><br>
+
+		Occupation:<span class="star">*</span>
+		<input type="radio" name="Service">Service
+		<input type="radio" name="Business">Business
+		<input type="radio" name="Housewife">Housewife
+		<input type="radio" name="Other">Other
+
+		<br><br>
+
+		Proof of Qualification:<span class="star">*</span>
+		<input type="file" name="proofquali">
+
+		<br><br>
+
+		<span class="star">*</span>:mandatory
+
+
+		<br><br><br><br>
+		<input type="submit" value="Submit">
+	</form>
+</div>
+
+</body>
+</html>
